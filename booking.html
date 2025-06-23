@@ -13,7 +13,7 @@
     <!-- --------------------------------------------------------->
 
 
-    <section class="home" id="home">
+      <section class="home" id="home">
         <div class="container">
             <div class="items">
                 <div class="item">
@@ -36,22 +36,23 @@
                 <div class="item">
                     <div class="box">
                         <h1 class="title">Booking Your Hotel</h1>
-                        <form action="https://formspree.io/f/mnnvgabl" method="post" class="form">
+
+                        <form action="" method="post" id="contact-form">
                             <div class="line">
-                                <label for="Check in" name="Check in" >Check in</label>
+                                <label for="Check in" name="Check in" >Check in<span>*</span> </label>
                                 <input type="date" name="Check in" id="in" class="input" required>
                             </div>
                             <div class="line">
-                                <label for="Check out" name="Check out">Check out</label>
+                                <label for="Check out" name="Check out">Check out<span>*</span></label>
                                 <input type="date" name="Check out" id="out" class="input" required>
                             </div>
 
                             <div class="line">
-                                <label for="FullName" name="FullName">FullName</label>
+                                <label for="FullName" name="FullName">FullName<span>*</span></label>
                                 <input type="text" name="FullName" id="FullName" class="input" required>
 
                             <div class="line">
-                                <label for="Hotal Name" name="Hotal Name">Hotal Name</label>
+                                <label for="Hotal Name" name="Hotal Name">Hotal Name<span>*</span></label>
                                 <select name="Hotal Name" id="Guests" class="input" required>
                                     <option>The Grand Raveta patan</option>
                                     <option>Hotel Silver Cloud Ahmedabad</option>
@@ -69,7 +70,7 @@
                                 </select>
 
                             <div class="line">
-                                <label for="Phone Number" name="Phone Number">Phone Number</label>
+                                <label for="Phone Number" name="Phone Number">Phone Number<span>*</span></label>
                                 <input type="number" name="Phone Number" placeholder="Phone Number" class="input" required>
                             </div>
 
@@ -79,7 +80,7 @@
                             </div>
 
                             <div class="line">
-                                <label for="Guests" name="Guests">Guests</label>
+                                <label for="Guests" name="Guests">Guests<span>*</span></label>
                                 <select name="Guests" id="Guests" class="input" required>
                                     <option>2 Adults</option>
                                     <option>1 Adult</option>
@@ -91,7 +92,7 @@
                                 </select>
                             </div>
                             <div class="line">
-                                <label for="Room" name="Room">Room</label>
+                                <label for="Room" name="Room">Room<span>*</span></label>
                                 <select name="Room" id="Guests" class="input" required>
                                     <option>1 Room</option>
                                     <option>2 Rooms</option>
@@ -107,12 +108,15 @@
                             </div>
                         </form>
 
+                       
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+   <script src="booking.js"></script>
    
 </body>
 
