@@ -203,7 +203,9 @@ html, body {
     color: #444;
 }
 
-
+.line label span{
+    color: red;
+}
 
 
 
