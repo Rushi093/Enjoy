@@ -41,7 +41,10 @@ html, body {
 .home .items .item {
     width: 100%;
     grid-column: span 2;
+}
 
+.home .items .item .content{
+    margin-bottom: 300px;
 }
 
 .home .items .item .content .title {
@@ -287,6 +290,12 @@ html, body {
 
 }
  */
+
+ @media (max-width: 990px) {
+    .home .items .item .content{
+    margin-bottom: 0px;
+    }
+}
 
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
