@@ -51,6 +51,7 @@ form.addEventListener('submit', e => {
     setTimeout(() => {
       responseMessage.classList.remove('show');
       responseMessage.classList.add('hidden');
+      window.location.href = "index.html";
     }, 4000);
   });
 });
